@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+*.dylib
+
+# C extensions
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebooks
+*.ipynb
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+venv/
+.env/
+
+# Ignore test results
+*.pytest_cache/
+
+# Ignore backups
+*.bak
+*.tmp
+
+# Ignore tagging outputs
+*.tagged
+
+# Ignore other temporary files
+~*

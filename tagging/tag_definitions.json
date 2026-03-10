@@ -1,0 +1,32 @@
+{
+  "category": ["coding", "math", "general"],
+  "difficulty": ["beginner", "intermediate", "advanced", "elementary", "high school", "undergraduate"],
+  "language": [
+    "python",
+    "javascript",
+    "typescript",
+    "java",
+    "c++",
+    "c#",
+    "go",
+    "rust",
+    "kotlin",
+    "swift",
+    "php",
+    "ruby",
+    "scala",
+    "elixir",
+    "haskell",
+    "dart",
+    "lua",
+    "r",
+    "matlab",
+    "perl",
+    "bash",
+    "powershell",
+    "sql",
+    "unknown"
+  ],
+  "quality": ["high", "medium", "low"],
+  "safety": ["safe", "review"]
+}

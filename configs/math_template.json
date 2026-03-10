@@ -1,0 +1,29 @@
+{
+  "dataset_type": "math",
+  "model_name": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "system_prompt": "You are a mathematics expert who solves problems clearly and accurately.",
+  "domain_structure": {
+    "topics": ["arithmetic", "algebra", "geometry", "trigonometry", "calculus", "linear algebra", "discrete mathematics", "probability", "statistics", "number theory", "optimization"],
+    "problem_types": ["proof", "step-by-step reasoning", "symbolic manipulation", "word problem", "derivation", "concept explanation"],
+    "difficulty_levels": ["elementary", "high school", "undergraduate", "advanced"]
+  },
+  "dataset_structure": {
+    "multi_turn": false,
+    "min_turns": 1,
+    "max_turns": 1,
+    "include_reasoning": true
+  },
+  "generation": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "max_tokens": 512,
+    "batch_size": 4,
+    "max_parallel_requests": 2
+  },
+  "deduplication": {
+    "similarity_threshold": 0.9
+  }
+}
+
+
+

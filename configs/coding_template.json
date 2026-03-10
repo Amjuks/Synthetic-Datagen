@@ -1,0 +1,25 @@
+{
+  "dataset_type": "coding",
+  "model_name": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "system_prompt": "You are an expert software engineering assistant.",
+  "domain_structure": {},
+  "dataset_structure": {
+    "multi_turn": false,
+    "min_turns": 1,
+    "max_turns": 1,
+    "include_reasoning": false
+  },
+  "generation": {
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "batch_size": 4,
+    "max_parallel_requests": 2
+  },
+  "deduplication": {
+    "similarity_threshold": 0.92
+  }
+}
+
+
+
