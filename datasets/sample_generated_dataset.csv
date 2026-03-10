@@ -1,0 +1,3 @@
+instruction,response,languages,task_types,difficulty_levels,context_types
+"Why does this Rust async function deadlock when using Tokio?","This usually happens due to blocking calls inside async tasks or lock ordering issues. Replace blocking calls with async equivalents and avoid nested mutex waits.",rust,debugging,advanced,backend services
+"Write a Python function to merge two sorted arrays.","Use two pointers and append the smaller element each step until one list ends, then append the remainder.",python,algorithm implementation,beginner,scripts

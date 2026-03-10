@@ -1,0 +1,7 @@
+{
+  "category": ["coding", "math", "general"],
+  "difficulty": ["beginner", "intermediate", "advanced", "elementary", "high school", "undergraduate"],
+  "language": ["python", "javascript", "java", "c++", "go", "rust", "typescript", "bash", "sql", "unknown"],
+  "quality": ["high", "medium", "low"],
+  "safety": ["safe", "review"]
+}

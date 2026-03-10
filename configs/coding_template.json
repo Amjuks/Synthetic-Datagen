@@ -1,0 +1,25 @@
+{
+  "dataset_type": "coding",
+  "model_name": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "system_prompt": "You are an expert software engineering assistant.",
+  "domain_structure": {
+    "languages": ["python", "javascript", "java", "c++", "go", "rust", "typescript", "bash", "sql"],
+    "task_types": ["algorithm implementation", "debugging", "optimization", "refactoring", "system design", "data structures", "concurrency", "api usage", "code explanation", "code completion", "test generation"],
+    "difficulty_levels": ["beginner", "intermediate", "advanced"],
+    "context_types": ["scripts", "backend services", "web development", "database queries", "cli tools", "distributed systems"]
+  },
+  "dataset_structure": {
+    "multi_turn": false,
+    "include_reasoning": false
+  },
+  "generation": {
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "max_tokens": 512,
+    "batch_size": 4,
+    "max_parallel_requests": 2
+  },
+  "deduplication": {
+    "similarity_threshold": 0.92
+  }
+}
